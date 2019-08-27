@@ -1,4 +1,4 @@
-# Desafio 02 - BootCamp GoStack 8.0
+# Desafio 03 - BootCamp GoStack 8.0
 🚀👨🏻‍🚀 https://rocketseat.com.br/bootcamp
 
 # Details The Challenger!
@@ -86,9 +86,9 @@ To perform tests on the api routes follow the following steps::
 
 - Run the program and click on the Main Logo
 
-- Then click the * import/export * option and import the file **Insonmia-desafio02.json**
+- Then click the * import/export * option and import the file **Insonmia-desafio03.json**
 
-- Switch Workspace for **Bootcamp Desafio #02**
+- Switch Workspace for **Bootcamp Desafio #03**
 
 
 Now simply access the routes in your preferred browser that are displayed on Insomnia and test them:
