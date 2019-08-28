@@ -7,6 +7,12 @@ class File extends Model {
         // just values chenged for Users
         name: Sequelize.STRING,
         path: Sequelize.STRING,
+        url: {
+          type: Sequelize.VIRTUAL,
+          get() {
+            return `http://localhost/files/${this.path}`;
+          },
+        },
       },
       {
         sequelize,
