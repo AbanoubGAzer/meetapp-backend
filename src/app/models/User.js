@@ -10,6 +10,7 @@ class User extends Model {
         email: Sequelize.STRING,
         password: Sequelize.VIRTUAL,
         password_hash: Sequelize.STRING,
+        organizer: Sequelize.BOOLEAN,
       },
       {
         sequelize,
@@ -26,9 +27,9 @@ class User extends Model {
   }
 
   // associate model File to User
-  static associate(models) {
-    this.belongsTo(models.File, { foreignKey: 'avatar_id' });
-  }
+  // static associate(models) {
+  //   this.belongsTo(models.File, { foreignKey: 'avatar_id' });
+  // }
 
   checkPassword(password) {
     return bcrypt.compare(password, this.password_hash);

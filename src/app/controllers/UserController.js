@@ -11,6 +11,7 @@ class UserController {
       password: Yup.string()
         .required()
         .min(6),
+      organizer: Yup.boolean().required(),
     });
 
     if (!(await schema.isValid(req.body))) {
@@ -27,12 +28,13 @@ class UserController {
         .json({ error: 'Este usuário já existe na base de dados' });
     }
 
-    const { id, name, email } = await User.create(req.body);
+    const { id, name, email, organizer } = await User.create(req.body);
 
     return res.json({
       id,
       name,
       email,
+      organizer,
     });
   }
 
