@@ -1,10 +1,13 @@
 {
-  "name": "bootcamp-gostack-desafio-03",
+  "name": "meetapp-backend",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "fix-js": "eslint --fix src --ext .js",
+    "migrate": "sequelize db:migrate",
+    "undo-migrate": "sequelize db:migrate:undo"
   },
   "dependencies": {
     "@sentry/node": "5.4.3",

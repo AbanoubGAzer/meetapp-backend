@@ -1,96 +1,84 @@
-# Challenger 03 - BootCamp GoStack 8.0
-🚀👨🏻‍🚀 https://rocketseat.com.br/bootcamp
+<h1 align="left">
+    Meetapp Backend NodeJS
+</h1>
 
-# Details The Challenger!
-This is a developer event aggregator app called Meetapp (an acronym for Meetup + App).
+<h4 align="lef">
+  This is a developer event aggregator app called Meetapp (an acronym for Meetup + App).
+</h4>
 
-  - Sucrase + Nodemon
-  - ESLint + Prettier + EditorConfig
-  - Sequelize (Utilize PostgresSQL ou MySQL)
-  - Authentication using JWT
-  - Input Data Validation
-  - User Registration and Update
-  - Criptografe a senha do usuário para segurança.
-  - Realize a validação dos dados de entrada;
+<p align="left">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ewersoncastelo/meetapp-backend.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ewersoncastelo/meetapp-backend.svg">
+ <a href="https://www.codacy.com/manual/ewersoncastelo/meetapp-backend?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ewersoncastelo/meetapp-backend&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/278b57830ba040b6a3a3a9d351008920"/></a>
+<a href="https://github.com/ewersoncastelo/meetapp-backend/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/ewersoncastelo/meetapp-backend"></a>
+<a href="https://github.com/ewersoncastelo/meetapp-backend/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/ewersoncastelo/meetapp-backend.svg">
+  </a>
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/ewersoncastelo/meetapp-backend.svg">
+  <a href="https://github.com/ewersoncastelo/meetapp-backend/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ewersoncastelo/meetapp-backend.svg">
+  </a>
+</p>
 
-# Installation
+## Installation
 
-- This App requires [Node.js](https://nodejs.org/) v4+ to run.
+- [Express](https://expressjs.com/)
+- [Bcrypt](https://www.npmjs.com/package/bcrypt)
+- [Bee Queue](https://github.com/bee-queue/bee-queue)
+- [Date Fns](https://date-fns.org/)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Jsonwebtoken](https://jwt.io/)
+- [Mongoose](https://www.mongodb.com/)
+- [Nodemailer](https://nodemailer.com/about/)
+- [Sequelize](https://sequelize.org/)
+- [Yup](https://www.npmjs.com/package/yup)
+- [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+- [Insomnia][inso]
 
-> Windows
-Using Chocolatey: https://chocolatey.org/install
-```sh
-$ cinst nodejs.install
-# or for without npm
-$ cinst nodejs
-```
-check if the installation was successful...
-(ps: maybe you need to restart the terminal)
+## Software Required
 
-```sh
-$ npm -v
-$ node -v
-```
-> macOS
-Using Homebrew: http://brew.sh/
+To access the routes (post, get, update, ..), download the [Insomnia][inso] and your prefer Data Base for the run ```yarn migrate```, the settings the insomnia can be found in the root of the project.
 
-```sh
-$ brew install node
-```
-check if the installation was successful...
-
-- This App requires [yarnPKG](https://yarnpkg.com) v1.16.0 + to run.
-
-> Windows
-Using Chocolatey: https://chocolatey.org/install
-```sh
-$ choco install yarn
-```
-check if the installation was successful...
-(ps: maybe you need to restart the terminal)
-
-```sh
-$ yarn -v
-```
-> macOS
-Using Homebrew: http://brew.sh/
-
-```sh
-$ brew install yarn --without-node
-```
-check if the installation was successful...
-
-### Software Required
-
-To access the routes (post, get, update, ..), download the insomnia, and the settings the program can be found in the root of the project.
-
-| Software | Link Download |
-| ------ | ------ |
-| Insomnia | https://insomnia.rest/download/ |
-
-# How Use?
-Open your favorite Terminal and run these commands.
-
-navigate to the project folder and run the command to install the dependencies:
-```sh
-$ yarn
-```
-
-Then Run:
-```sh
-$ yarn dev
-```
-
-# Using the Insomnia
-To perform tests on the api routes follow the following steps::
+To perform tests on the api routes follow the following steps:
 
 - Run the program and click on the Main Logo
+- Then click the import/export option and import the file **insomia-test.json**
 
-- Then click the * import/export * option and import the file **Insonmia-desafio03.json**
+## How To Use
 
-- Switch Workspace for **Bootcamp Desafio #03**
+This App requires [Node][nodejs] v4+ and [Yarn][yarnpkg] to run.
 
+Open your favorite Terminal and run these commands. Navigate to the project folder and run the following command to install the dependencies:
 
-Now simply access the routes in your preferred browser that are displayed on Insomnia and test them:
-`http://localhost:3333/users`
-`http://localhost:3333/sessions`
+```bash
+# Clone this repository
+$ git clone https://github.com/ewersoncastelo/meetapp-backend
+
+# Go into the repository
+$ cd meetapp-backend
+
+# Install dependencies
+$ yarn install
+
+# Run migrations to your database
+$ yarn migrate
+
+# Run the server and queue
+$ yarn dev
+$ yarn queue
+```
+
+---
+
+## License
+
+This project is under the [MIT LICENSE](https://github.com/ewersoncastelo/meetapp-backend/blob/master/LICENSE) for more information.
+
+---
+
+[nodejs]: https://nodejs.org/
+[yarnpkg]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[inso]: https://insomnia.rest/download/
