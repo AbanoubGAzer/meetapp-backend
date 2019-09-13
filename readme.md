@@ -22,18 +22,18 @@
 
 ## Installation
 
--  [Express](https://expressjs.com/)
--  [Bcrypt](https://www.npmjs.com/package/bcrypt)
--  [BeeQueue](https://github.com/bee-queue/bee-queue)
--  [DateFns](https://date-fns.org/)
--  [Dotenv](https://www.npmjs.com/package/dotenv)
--  [Jsonwebtoken](https://jwt.io/)
--  [Mongoose](https://www.mongodb.com/)
--  [Nodemailer](https://nodemailer.com/about/)
--  [Sequelize](https://sequelize.org/)
--  [Yup](https://www.npmjs.com/package/yup)
--  [VSCode][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
--  [Insomnia][inso]
++ [Express](https://expressjs.com/)
++ [Bcrypt](https://www.npmjs.com/package/bcrypt)
++ [BeeQueue](https://github.com/bee-queue/bee-queue)
++ [DateFns](https://date-fns.org/)
++ [Dotenv](https://www.npmjs.com/package/dotenv)
++ [Jsonwebtoken](https://jwt.io/)
++ [Mongoose](https://www.mongodb.com/)
++ [Nodemailer](https://nodemailer.com/about/)
++ [Sequelize](https://sequelize.org/)
++ [Yup](https://www.npmjs.com/package/yup)
++ [VSCode][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
++ [Insomnia][inso]
 
 ## Software Required
 
