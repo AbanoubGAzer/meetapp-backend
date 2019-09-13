@@ -22,12 +22,12 @@
 
 ## Installation
 
-- [NodeJS](https://nodejs.org)
-- [styled-components](https://www.styled-components.com/)
-- [Axios](https://github.com/axios/axios)
-- [date-fns](https://date-fns.org/)
-- [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
-- And anothers packages...
+-   [NodeJS](https://nodejs.org)
+-   [styled-components](https://www.styled-components.com/)
+-   [Axios](https://github.com/axios/axios)
+-   [date-fns](https://date-fns.org/)
+-   [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+-   And anothers packages...
 
 ## Software Required
 
